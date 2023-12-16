@@ -57,7 +57,6 @@ class GradesTest
 	void zeroIsF()
 	{
 		var calc = new Grades();
-		
 		assertEquals('F', calc.letterGrade(0));
 	}
 	
@@ -66,7 +65,6 @@ class GradesTest
 	void oneIsF()
 	{
 		var calc = new Grades();
-		
 		assertEquals('F', calc.letterGrade(1));
 	}
 	
@@ -75,7 +73,6 @@ class GradesTest
 	void fourtyIsF()
 	{
 		var calc = new Grades();
-		
 		assertEquals('F', calc.letterGrade(40));
 	}
 	
@@ -84,7 +81,6 @@ class GradesTest
 	void fourtyNineIsF()
 	{
 		var calc = new Grades();
-		
 		assertEquals('F', calc.letterGrade(49));
 	}
 	
@@ -93,7 +89,6 @@ class GradesTest
 	void fiftyIsD()
 	{
 		var calc = new Grades();
-		
 		assertEquals('D', calc.letterGrade(50));
 	}
 	
@@ -102,7 +97,6 @@ class GradesTest
 	void fiftyOneIsD()
 	{
 		var calc = new Grades();
-		
 		assertEquals('D', calc.letterGrade(51));
 	}
 	
@@ -111,7 +105,6 @@ class GradesTest
 	void fiftyNineIsD()
 	{
 		var calc = new Grades();
-		
 		assertEquals('D', calc.letterGrade(59));
 	}
 	
@@ -120,7 +113,6 @@ class GradesTest
 	void sixtyIsC()
 	{
 		var calc = new Grades();
-		
 		assertEquals('C', calc.letterGrade(60));
 	}
 	
@@ -129,7 +121,6 @@ class GradesTest
 	void sixtyNineIsC()
 	{
 		var calc = new Grades();
-		
 		assertEquals('C', calc.letterGrade(69));
 	}
 	
@@ -138,7 +129,6 @@ class GradesTest
 	void seventyIsB()
 	{
 		var calc = new Grades();
-		
 		assertEquals('B', calc.letterGrade(70));
 	}
 	
@@ -147,7 +137,6 @@ class GradesTest
 	void eightyNineIsB()
 	{
 		var calc = new Grades();
-		
 		assertEquals('B', calc.letterGrade(89));
 	}
 
@@ -156,7 +145,6 @@ class GradesTest
 	void ninetyIsA()
 	{
 		var calc = new Grades();
-		
 		assertEquals('A', calc.letterGrade(90));
 	}
 }
